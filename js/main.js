@@ -14,7 +14,7 @@
                 items: 4,
                 margin: 30,
                 nav: true,
-                navText: ['<img src="/img/arow-left.png">', '<img src="/img/arow-right.png">'],
+                navText: ['<img src="/soulhost.github.io/img/arow-left.png">', '<img src="/soulhost.github.io/img/arow-right.png">'],
                 autoplay: false,
                 responsiveClass: true,
                 responsive: {
