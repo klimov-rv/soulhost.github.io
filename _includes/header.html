@@ -1,0 +1,65 @@
+{% if page.url == '/signup.html' or page.url == '/login.html'  %}
+    <div class="header-area signup-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 logo">
+                    <a href="/"><img src="{{ site.baseurl }}/img/logo.png" data-retina="img/logo2.png" alt="">Soulhost</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% else %}
+    <div class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col-xs-3 logo">
+                    <a href="/"><img src="{{ site.baseurl }}/img/logo.png" data-retina="img/logo2.png" alt="">Soulhost</a>
+                </div>
+                <div class="col-sm-7 col-xs-9 mainmenu">
+                    <ul id="mainmenu">
+                        <li><a href="/">Главная</a>
+                            <!-- <ul class="drop-menu">
+                                <li><a href="{{ site.baseurl }}/index-2.html">Home v1</a></li>
+                                <li><a href="{{ site.baseurl }}/index-3.html">Home v2</a></li>
+                            </ul> -->
+                        </li>
+                        <!-- <li><a href="{{ site.baseurl }}/#">Company</a>
+                            <ul class="drop-menu">
+                                <li><a href="{{ site.baseurl }}/about.html">About us</a></li>
+                                <li><a href="{{ site.baseurl }}/team.html">Team</a></li>
+                                <li><a href="{{ site.baseurl }}/jobs.html">Career</a></li>
+                            </ul>
+                        </li> -->
+                        <li><a href="#">Хостинг</a>
+                            <ul class="drop-menu">
+                                <li><a href="{{ site.baseurl }}/hosting/product-details-1">Виртуальный хостинг</a></li>
+                                <li><a href="{{ site.baseurl }}/hosting/product-details-2">Облачный хостинг</a></li>
+                                <li><a href="{{ site.baseurl }}/hosting/product-details-3">Wordpress хостинг</a></li>
+                                <li><a href="{{ site.baseurl }}/hosting/product-details-4">Выделенный сервер</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="{{ site.baseurl }}/domain.html">Домены</a></li>
+                        <li><a href="{{ site.baseurl }}/services.html">Цены</a></li>
+                        <li><a href="#">Душевный хостинг</a>
+                        <ul class="drop-menu">
+                            <!-- <li><a href="{{ site.baseurl }}/index-2.html">Home v1</a></li>
+                            <li><a href="{{ site.baseurl }}/index-3.html">Home v2</a></li> -->
+                            <li><a href="{{ site.baseurl }}/about.html">О нас</a></li>
+                            <!-- <li><a href="{{ site.baseurl }}/domain.html">Домены</a></li> -->
+                            <li><a href="{{ site.baseurl }}/faq.html">Термины</a></li>
+                            <li><a href="{{ site.baseurl }}/team.html">Команда</a></li>
+                            <!-- <li><a href="{{ site.baseurl }}/jobs.html">Career</a></li> 
+                            <li><a href="{{ site.baseurl }}/product-details.html">Product Details</a></li>-->
+                            <li><a href="{{ site.baseurl }}/contact.html">Контакты</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-xs-6 header-right">
+                    <div class="login-btn-area"> <a href="{{ site.baseurl }}/login.html" class="login-btn">Войти</a> </div>
+                    <div class="account-btn"> <a href="{{ site.baseurl }}/signup.html" class="create-account-btn button-hover">Зарегистрироваться</a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
